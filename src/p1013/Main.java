@@ -31,6 +31,9 @@ public class Main {
                     m = i;
                 }
             }
+            if (i == Integer.MAX_VALUE) {
+                throw new RuntimeException("数据输入有误");
+            }
             i++;
         }
         n = i - 1;
