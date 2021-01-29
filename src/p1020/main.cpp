@@ -7,8 +7,7 @@ using namespace std;
 bool debug = false;
 
 struct node {
-    int storeCount;
-    double allPrice, singlePrice;
+    double storeCount, allPrice, singlePrice;
 };
 
 int cmp(struct node a, struct node b) {
