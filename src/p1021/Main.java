@@ -3,6 +3,12 @@ package p1021;
 import java.util.Scanner;
 import java.util.TreeMap;
 
+
+/**
+ * PAT(Basic Level) Practice
+ * https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296
+ *
+ */
 public class Main {
     public static void main(String[] args) {
         char[] input = new Scanner(System.in).nextLine().toCharArray();

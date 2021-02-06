@@ -3,6 +3,7 @@ package p1010;
 import java.util.Scanner;
 
 /**
+ * PAT(Basic Level) Practice
  * https://pintia.cn/problem-sets/994805260223102976/problems/994805313708867584
  *
  * @author finlu

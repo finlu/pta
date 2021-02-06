@@ -1,33 +1,28 @@
+// PAT(Basic Level) Practice
+// https://pintia.cn/problem-sets/994805260223102976/problems/994805293282607104
 #include <iostream>
 
 using namespace std;
 
-
-class Person {
-public:
-	string name;
-	int year;
-	int month;
-	int day;
-
-	Person(string name, int year, int month, int day) {
-		this->name = name;
-		this->year = year;
-		this->month = month;
-		this->day = day;
-	}
-}
-
 int main() {
-	int n, count;
-	Person maxAgePerson, minAgePerson, person;
-	string cname;
-	int cyear, cmonth, cday;
-	char c = '/';
+	int n, cnt = 0;
 	cin >> n;
+	string name, birth, maxName, minName, maxBirth = "1814/09/06", minBirth = "2014/09/06";
 	for (int i = 0; i < n; i++) {
-		cin >> cname >> cyear >> c >> cmonth >> cday;
-		person = Person(cname, cyear, cmonth, cday);
+		cin >> name >> birth;
+		if (birth >= "1814/09/06" && birth <= "2014/09/06") {
+			cnt++;
+			if (birth >= maxBirth) {
+				maxBirth = birth;
+				maxName = name;
+			}
+			if (birth <= minBirth) {
+				minBirth = birth;
+				minName = name;
+			}
+		}
 	}
+	cout << cnt;
+	if (cnt != 0) cout << " " << minName << " " << maxName << endl;
 	return 0;
 }

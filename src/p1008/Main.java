@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
+ * PAT(Basic Level) Practice
  * https://pintia.cn/problem-sets/994805260223102976/problems/994805316250615808
  *
  * @author finlu

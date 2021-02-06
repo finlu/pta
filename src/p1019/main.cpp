@@ -1,3 +1,5 @@
+// PAT(Basic Level) Practice
+// https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968
 #include <iostream>
 using namespace std;
 
@@ -13,8 +15,6 @@ void intToCharArray(char* nums, int res, int n);
 bool debug = false;
 
 
-
-// https://pintia.cn/problem-sets/994805260223102976/problems/994805302786899968
 int main(int argc, char *argv[]) {
     int n;
 	char maxNumArr[4], minNumArr[4];

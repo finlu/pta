@@ -1,3 +1,5 @@
+// PAT(Basic Level) Practice
+// https://pintia.cn/problem-sets/994805260223102976/problems/994805290334011392
 #include <iostream>
 #include <vector>
 

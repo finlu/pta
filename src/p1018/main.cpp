@@ -1,3 +1,5 @@
+// PAT(Basic Level) Practice
+// https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344 
 #include <iostream>
 using namespace std;
 
@@ -8,7 +10,6 @@ int rule(char p1, char p2);
 char maxWin(int c, int j, int b);
 
 
-// https://pintia.cn/problem-sets/994805260223102976/problems/994805304020025344
 int main() {
 	int n;
 	char j, y;

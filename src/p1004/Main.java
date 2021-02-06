@@ -3,6 +3,7 @@ package p1004;
 import java.util.*;
 
 /**
+ * PAT(Basic Level) Practice
  * https://pintia.cn/problem-sets/994805260223102976/problems/994805321640296448
  *
  * @author finlu
