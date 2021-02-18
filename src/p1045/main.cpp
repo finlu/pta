@@ -5,6 +5,7 @@
 
 using namespace std;
 
+// 注意：如果这题直接硬编码向后搜索会超时
 int main() {
     int n, m = 0, flag, count = 0;
     cin >> n;
